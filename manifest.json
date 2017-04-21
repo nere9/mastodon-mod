@@ -8,12 +8,16 @@
 
     "content_scripts": [
         {
-            "matches": ["https://friends.nico/web/*"],
+            "matches": [
+                "https://friends.nico/web/*",
+                "https://mstdn.nere9.help/web/*"
+            ],
             "css": ["style.css"]
         }
     ],
 
     "permissions": [
-        "https://friends.nico/web/*"
+        "https://friends.nico/web/*",
+        "https://mstdn.nere9.help/web/*"
     ]
 }
